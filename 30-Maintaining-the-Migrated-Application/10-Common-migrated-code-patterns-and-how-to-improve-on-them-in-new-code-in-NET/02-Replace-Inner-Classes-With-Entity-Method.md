@@ -143,7 +143,7 @@ public void InsertNewProduct()
 ```
 
 ## InsertIfNotFound
-The InsertIfNotFound methods works the same as an InsertIfNotFound relation. It inserts a new row to a table only if the row does not exists already.
+The InsertIfNotFound methods works the same as an InsertIfNotFound relation. It inserts a new row to a table if the row does not exist (according to the where condition) or updates the existing row.
 
 **Example**
  
